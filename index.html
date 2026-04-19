@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For BK💕 My Eternal Love 🤍</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&family=Lato:wght@300;400&display=swap" rel="stylesheet">
+<style>
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 50%, #fad0c4 100%);
+    background-attachment: fixed;
+    cursor: url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 24 24' fill='none' stroke='%23ff69b4' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z'/%3E%3C/svg%3E"), auto;
+    animation: gentleBreath 6s ease-in-out infinite;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: clamp(2.5rem, 10vw, 5rem);
+    color: #e091a0;
+    margin-bottom: 12px;
+    text-shadow: 0 0 20px rgba(224, 145, 160, 0.5), 1px 1px 3px rgba(224, 145, 160, 0.3);
+    animation: romanticGlow 3s ease-in-out infinite alternate;
+}
+
+p {
+    font-size: 18px;
+    color: #d4a5b6;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-bottom: 28px;
+    text-shadow: 0 1px 2px rgba(255,255,255,0.5);
+}
+
+button, .romantic-link {
+    padding: 15px 40px;
+    border: none;
+    border-radius: 35px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    background: linear-gradient(135deg, #ff69b4, #ff1493, #ffc0cb);
+    cursor: pointer;
+    box-shadow: 0 6px 20px rgba(255, 105, 180, 0.4), inset 0 1px 0 rgba(255,255,255,0.3);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px;
+}
+
+button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.4), transparent);
+    transition: left 0.5s;
+}
+
+button:hover::before {
+    left: 100%;
+}
+
+button:hover {
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 10px 30px rgba(255, 105, 180, 0.6);
+}
+
+
+
+#letter {
+    visibility: hidden;
+    opacity: 0;
+    transform: scale(0.9) translateY(20px);
+    transition: all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+
+    margin-top: 30px;
+    padding: 40px 35px;
+    background: linear-gradient(160deg, #fffaf0, #fdf2f8, #fef5f7);
+    border-radius: 25px;
+    max-width: 380px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 15px 50px rgba(255, 105, 180, 0.25), inset 0 1px 0 rgba(255,255,255,0.6);
+    border: 2px solid rgba(255, 105, 180, 0.4);
+
+    font-family: 'Dancing Script', cursive;
+    font-size: 22px;
+    color: #d63384;
+    line-height: 1.8;
+    text-align: left;
+}
+
+#letter .signature {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #e091a0;
+    text-align: right;
+    text-shadow: 0 2px 10px rgba(224, 145, 160, 0.4);
+}
+
+#letter.show {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+    animation: letterBloom 0.8s ease-out;
+}
+
+@keyframes gentleBreath {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.02);
+  }
+}
+
+@keyframes romanticGlow {
+  from {
+    text-shadow: 0 0 20px rgba(224, 145, 160, 0.5), 1px 1px 3px rgba(224, 145, 160, 0.3);
+  }
+  to {
+    text-shadow: 0 0 30px rgba(224, 145, 160, 0.8), 0 0 40px rgba(255, 182, 193, 0.6);
+  }
+}
+
+@keyframes letterBloom {
+  0% {
+    transform: scale(0.9) translateY(20px);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1) translateY(0);
+    opacity: 1;
+  }
+}
+
+#heartsCanvas {
+  display: block;
+}
+
+.romantic-link {
+  color: #ff69b4;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 12px 25px;
+  border-radius: 30px;
+  background: rgba(255, 105, 180, 0.15);
+  border: 2px solid rgba(255, 105, 180, 0.4);
+  transition: all 0.3s ease;
+  display: inline-block;
+  margin-left: 15px;
+  box-shadow: 0 4px 15px rgba(255, 105, 180, 0.2);
+}
+
+.romantic-link:hover {
+  background: rgba(255, 105, 180, 0.25);
+  border-color: #ff69b4;
+  box-shadow: 0 6px 25px rgba(255, 105, 180, 0.4);
+  transform: translateY(-2px);
+}
+</style>
+</head>
+
+<body>
+<div class="container" style="position: relative; z-index: 2;">
+    <canvas id="heartsCanvas" style="position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; pointer-events: none; z-index: -1;"></canvas>
+    <h1>For Baraka 💕🤍</h1>
+    <p>You've been trying, I see you.</p>
+
+    <button onclick="openLetter()">Open This 💌</button>
+<a href="calm.html" class="romantic-link">Need to calm down? 🫶 💕</a>
+    <div id="letter">
+        Baraka 🤍 <br><br>
+        I know things have been really stressful lately…
+        but I just want you to breathe small 🫶 <br><br>
+        You don't have to figure everything out at once. <br><br>
+        You're doing your best, and that's enough. <br><br>
+        I dey your back always 🤍
+        <div class="signature">— Adebare</div>
+    </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const canvas = document.getElementById('heartsCanvas');
+  const ctx = canvas.getContext('2d');
+  canvas.width = window.innerWidth;
+  canvas.height = window.innerHeight;
+
+  let hearts = [];
+
+  class Heart {
+    constructor() {
+      this.x = Math.random() * canvas.width;
+      this.y = canvas.height + 20;
+      this.size = Math.random() * 20 + 10;
+      this.speedY = Math.random() * 3 + 1;
+      this.speedX = Math.random() * 2 - 1;
+      this.opacity = Math.random() * 0.5 + 0.3;
+      this.color = `rgba(255, 105, 180, ${this.opacity})`;
+    }
+    update() {
+      this.y -= this.speedY;
+      this.x += this.speedX;
+      this.opacity -= 0.005;
+      if (this.y < 0 || this.opacity <= 0) {
+        this.y = canvas.height + 20;
+        this.opacity = Math.random() * 0.5 + 0.3;
+      }
+    }
+    draw() {
+      ctx.save();
+      ctx.globalAlpha = this.opacity;
+      ctx.fillStyle = this.color;
+      ctx.font = `${this.size}px 'Arial', sans-serif`;
+      ctx.textAlign = 'center';
+      ctx.textBaseline = 'middle';
+      ctx.fillText('💖', this.x, this.y);
+      ctx.restore();
+    }
+  }
+
+  function animateHearts() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    if (hearts.length < 20) {
+      hearts.push(new Heart());
+    }
+    hearts.forEach((heart, index) => {
+      heart.update();
+      heart.draw();
+      if (heart.opacity <= 0) {
+        hearts.splice(index, 1);
+      }
+    });
+    requestAnimationFrame(animateHearts);
+  }
+
+  animateHearts();
+
+  window.addEventListener('resize', () => {
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+  });
+
+  window.openLetter = function() {
+    const letter = document.getElementById('letter');
+    letter.style.visibility = 'visible';
+    setTimeout(() => {
+      letter.classList.add('show');
+      // Add petals burst
+      for (let i = 0; i < 30; i++) {
+        setTimeout(() => {
+          const petal = document.createElement('div');
+          petal.style.position = 'fixed';
+          petal.style.left = '50%';
+          petal.style.top = '50%';
+          petal.style.width = '12px';
+          petal.style.height = '12px';
+          petal.style.background = '#ff69b4';
+          petal.style.borderRadius = '50% 0';
+          petal.style.transform = 'rotate(' + (Math.random() * 360) + 'deg)';
+          petal.style.pointerEvents = 'none';
+          petal.style.zIndex = '10';
+          petal.style.opacity = '1';
+          petal.innerHTML = '🌸';
+          petal.style.fontSize = '12px';
+          document.body.appendChild(petal);
+          let petalX = 0, petalY = 0;
+          const petalAnim = () => {
+            petalX += (Math.random() - 0.5) * 4;
+            petalY += Math.random() * 2 + 1;
+            petal.style.transform = `translate(${petalX}px, ${petalY}px) rotate(${Date.now() * 0.1}deg)`;
+            petal.style.opacity -= 0.02;
+            if (petal.style.opacity > 0) requestAnimationFrame(petalAnim);
+            else document.body.removeChild(petal);
+          };
+          petalAnim();
+        }, i * 50);
+      }
+    }, 10);
+  };
+});
+</script>
+</body>
+</html>
